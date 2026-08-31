@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+}
+.nav-title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: #015b20;
+}
+
+
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    text-decoration: underline;
+}
+.vocab{
+    color: #333;
+    text-decoration: underline;
+}
+.formulas{
+    color: #333;
+    text-decoration: underline;
+}
+.tips{
+    color: #333;
+    text-decoration: underline;
+}
+.examples{
+    color: #333;
+    text-decoration: underline;
+}
+.example-image{
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+.example-steps{
+    border: 3px solid #000000;
+    border-radius: 10px;
+    max-width: 400px;
+}
+.example-steps p{
+    margin: 10px;
+}
+.example-steps i{
+    margin-left: 15px;
+}
+h2{
+    color: #333;
+    text-decoration: underline;
+}
+#grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    column-gap: calc(25% - 96px);
+}
+.unit{
+    width: 21%;
+}
