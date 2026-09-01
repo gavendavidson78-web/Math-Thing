@@ -3,11 +3,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 15px 30px;
+    padding: 1% 2%;
 }
 .nav-title{
     color: #fff;
-    font-size: 24px;
+    font-size: 150%;
     font-weight: bold;
 }
 .nav-links{
@@ -20,14 +20,18 @@
 .nav-links a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 115%;
     transition: color 0.3s ease;
 }
 .nav-links a:hover{
     color: #015b20;
 }
+
+
+
+
 .page-links{
-    width: calc(25% - 32px); 
+    width: 22.9%;
     text-decoration: none;   
     color: inherit;          
     display: block;          
