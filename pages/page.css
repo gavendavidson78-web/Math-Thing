@@ -76,7 +76,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
-    column-gap: calc(25% - 96px);
+    column-gap: 15%;
 }
 .unit{
     width: 21%;
