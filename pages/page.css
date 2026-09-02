@@ -107,7 +107,7 @@ h2{
 }
 @media screen and (max-width: 768px) {
   #grid {
-    grid-template-columns: 1fr; /* Changes to 1 vertical column */
+    grid-template-columns: 1fr;
   }
 }
 .unit{
