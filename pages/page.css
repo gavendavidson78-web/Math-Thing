@@ -100,12 +100,16 @@ h2{
     text-decoration: underline;
 }
 #grid{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 20px;
-    column-gap: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5%;
+    margin-left: 2.5%;
+}
+@media screen and (max-width: 768px) {
+  #grid {
+    grid-template-columns: 1fr; /* Changes to 1 vertical column */
+  }
 }
 .unit{
-    width: 21%;
+    width: 100%;
 }
