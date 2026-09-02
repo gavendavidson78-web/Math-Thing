@@ -34,6 +34,7 @@
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    color: #fff;
   }
   .nav-links {
     position: fixed;
